@@ -1,0 +1,44 @@
+/* login customize */
+.loginpage{
+    background-color: #0a66c2;
+}
+
+.google{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid rgb(209 213 219 /1);
+    border-radius: 2rem;
+    margin: 20px auto;
+    font-size: 22px;
+    padding: 10px;
+    color:  rgb(55 65 81 /1);
+}
+
+.google:hover{
+    border: 2px solid rgb(99 102 241 /1);
+}
+
+/* register customize */
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(55 65 81 /1);
+    font-size: 22px;
+    gap: 10px;
+}
+
+.register a{
+    font-size: 22px;
+    color: #0a66c2;
+}
+
+.register a:hover{
+    color: #1669bde7;
+    text-decoration: underline;
+}

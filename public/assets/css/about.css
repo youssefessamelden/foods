@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* section 1 */
+.about{
+        height: 680px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .card{
+        width: 81%;
+        height: 616px;
+        border: none;
+    }
+
+    .about .card .row{
+        height: 100%;
+    }
+
+    .about .card .row .col{
+        width: 649px !important;
+        height: 100%;
+    }
+
+
+
+    .about .card .row .photos{
+        position: relative;
+    }
+
+    .about .card .row .photos .img-fluid{
+        width: 585px;
+        height: 566px;
+        object-fit: cover;
+    }
+
+    .about .card .row .photos .img-card-con{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        width: 411px;
+        height: 321px;
+        border-radius: 12px;
+        background-color: #474747;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .card .row .photos .img-card-con .img-card{
+        width: 311px;
+        height: 221px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .about .card .row .photos .img-card-con .img-card h3{
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .about .card .row .photos .img-card-con .img-card .info{
+        display: flex;
+        flex-direction: column;
+        height: 146px;
+        justify-content: space-between;
+        color: #FFFFFF;
+    }
+
+    .about .card .row .photos .img-card-con .img-card .info .info-contenet{
+        display: flex;
+    }
+
+    .about .card .row .photos .img-card-con .img-card .info span{
+        margin-left: 44px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .about .card .row .texts{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+    }
+
+    .about .card .row .texts .card-body{
+        width: 557px;
+        height: 457px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: absolute;
+        right: 0;
+    }
+
+    .about .card .row .texts .card-body .card-title{
+        font-size: 55px;
+        line-height: 60.5px;
+        color: #2C2F24;
+    }
+
+    .about .card .row .texts .card-body .card-text{
+        font-size: 18px;
+        line-height: 28px;
+        color: #2C2F24;
+    }
+
+    .about .card .row .texts .card-body .card-text .text-body-secondary{
+        font-size: 16px;
+        line-height: 24px;
+        color: #2C2F24;
+    }
+
+    .about .card .row .texts .card-body button{
+        width: 179px;
+        height: 64px;
+        border: 2px solid #2C2F24;
+        border-radius: 118px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    .about .card .row .texts .card-body button a{
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        color: #182226;
+    }
+
+
+
+
+/* section 2 */
+    .section2{
+        height: 955px;
+        width: 100vw;
+        position: relative;
+    }
+
+    .section2 .section2-cont{
+        height: 860px;
+    }
+
+    .section2 .section2-cont .bg{
+        height: 690px;
+        color: #FFFFFF;
+        background-image: url(../images/Restaurant.jpg);
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .section2 .section2-cont .bg .bg-opacity{
+        background: rgba(44, 47, 36, 0.84);
+        height: 100%;
+        width: 100%;
+    }
+
+    .section2 .section2-cont .bg .play-con{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 .section2-cont .bg .play-con .play{
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        width: 106px;
+        height: 106px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2 .section2-cont .bg .play-con .play svg{
+        position: absolute;
+        width: 19.25px;
+        height: 24.06px;
+        font-size: 30px;
+        color: #ad343d;
+    }
+
+    .section2 .section2-cont .bg .play-con  .playtitle{
+        width: 596px;
+        font-size: 55px;
+        line-height: 60.5px;
+        color: #FFFFFF;
+        text-align: center
+    }
+
+    .section2 .section2-cont .features{
+        width: 79.5%;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    .section2 .section2-cont .features .card{
+        width: 366px;
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+
+    .section2 .section2-cont .features .card .colu{
+        width: 294px;
+    }
+
+    .section2 .section2-cont .features .card .card-bod h5{
+        font-size: 20px;
+        line-height: 26px;
+        color: #2C2F24;
+    }
+
+    .section2 .section2-cont .features .card .card-bod p{
+        font-size: 16px;
+        line-height: 24px;
+        color: #414536;
+    }
+
+
+
+
+    /* section 3 */
+    .section3 {
+        height: 920px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section3 .section3-cont{
+        height: 680px;
+        width: 81%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+
+    .section3 .section3-cont .informations{
+        margin: 17.5px 0;
+        height: 645px;
+        width: 610px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .section3 .section3-cont .informations .info-text{
+        width: 556px;
+        height: 213px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3 .section3-cont .informations .h2{
+        font-size: 55px;
+        line-height: 60.5px;
+        color: #2C2F24;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .section3 .section3-cont .informations .h4{
+        font-size: 16px;
+        line-height: 24px;
+        color: #414536;
+        margin: 0;
+    }
+
+    .section3 .section3-cont .informations .rectangles{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 372px;
+        width: 610px;
+    }
+
+    .section3 .section3-cont .informations .rectangles .rectangle{
+        width: 293px;
+        height: 174px;
+        border-radius: 10px;
+        border: 1px solid #DBDFD0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section3 .section3-cont .informations .rectangles .rectangle h2{
+        font-size: 55px;
+        line-height: 60.5px;
+        color: #2C2F24;
+    }
+
+    .section3 .section3-cont .informations .rectangles .rectangle p{
+        font-size: 18px;
+        line-height: 28px;
+        color: #414536;
+    }
+
+    .section3 .section3-cont .image{
+        width: 555px;
+        height: 680px;
+        background-image: url(../images/كيف_نتعلم_فن_الطبخ.jpg);
+        background-size: 100% 100%;
+        border-radius: 12px;
+    }
+
+
+
+
+    /* section 4 */
+    .section4{
+        height: 766px;
+    }
+
+    .section4 .section4-cont{
+        width: 81%;
+        height: 533px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section4 .section4-cont .title4-content{
+        width: 626px;
+        height: 129px;
+        text-align: center;
+    }
+
+    .section4 .section4-cont .title4-content .title-4{
+        font-size: 55px;
+        line-height: 60.5px;
+        color: #2C2F24;
+    }
+
+    .section4 .section4-cont .title4-content .para{
+        font-size: 16px;
+        line-height: 24px;
+        color: #495460;
+    }
+
+    .section4 .section4-cont .cards-4{
+        height: 408px;
+        width: 100%;
+        display: flex;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4{
+        height: 100%;
+        width: 416px;
+        border-radius: 10px;
+        background-color: #F9F9F7;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content{
+        width: 346px;
+        height: 328px;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content .card-text{
+        width: 346px;
+        height: 194px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content .card-text h2{
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -3%;
+        color: #AD343E;
+        font-weight: bold;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content .card-text P{
+        font-size: 18px;
+        line-height: 28px;
+        color: #414536;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content hr{
+        width: 346px;
+        color: #DBDFD0;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content .user{
+        width: 211px;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content .user .userimg{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content .user .user-text{
+        width: 121px;
+        height: 51px;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content .user .user-text h2{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+        color: #2C2F24;
+    }
+
+    .section4 .section4-cont .cards-4 .card-4 .card-content .user .user-text p{
+        font-size: 16px;
+        line-height: 24px;
+        color: #414536;
+    }
+
+
+
+
+
+
+
+
+    @media (max-width: 1300px){
+        .section3{
+            height: 1545px;
+        }
+
+        .section3 .section3-cont{
+            height: 1350px;
+            grid-template-columns: auto;
+            justify-content: center;
+            justify-items: center;
+        }
+
+        .section2 .section2-cont .bg .play-con .playtitle {
+            width: 390px;
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+
+    @media (max-width: 535px){
+        .section3 .section3-cont .informations{
+            width: 100%;
+            height: 460px;
+            align-items: center;
+        }
+
+        .section3 .section3-cont .informations .h4 {
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        .section3 .section3-cont .informations .info-text{
+            width: 100%;
+        }
+
+        .section3 .section3-cont .informations .rectangles{
+            width: 380px;
+            height: 260px;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .section3 .section3-cont .informations .rectangles .rectangle{
+            width: 190px;
+            height: 115px;
+        }
+
+        .section3 .section3-cont .informations .rectangles .rectangle h2 {
+            font-size: 35px;
+            line-height: 40px;
+        }
+
+        .section3 .section3-cont .image{
+            width: 100vw;
+            height: 550px;
+        }
+
+        .section2 .section2-cont .features {
+            height: 220px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .section3 .section3-cont .informations .h2 {
+            font-size: 31px;
+            line-height: 43px;
+        }
+    }
